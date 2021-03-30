@@ -68,7 +68,7 @@ $schoolMeal = new SchoolMealData("학교 이름", "아침 or 점심 or 저녁", 
 ```php
 $schoolMeal->getSchoolMeals(bool $hideNutrition);
 ```
-- $hideNutrition은 영양정보 표시 여부 입니다. false로 하면 음식 이름만 표기되며, true로 허용시 영양 정보 번호를 같은 표기합니다.
+- $hideNutrition은 영양정보 표시 여부 입니다. false로 하면 음식 영양 정보 번호도 같이 표기되며, true로 허용시 영양 정보 번호를 표기하지 않습니다.
 
 <br>
 
